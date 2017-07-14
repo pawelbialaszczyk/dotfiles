@@ -5,13 +5,13 @@
 
     "window.menuBarVisibility": "toggle",
 
-    "workbench.welcome.enabled": true,
     "workbench.colorCustomizations": {
         "statusBar.background": "#171717",
         "statusBar.noFolderBackground": "#171717"
     },
 
     "editor.fontLigatures": true,
+    "editor.renderWhitespace": "boundary",
 
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontLigatures": true,
@@ -20,7 +20,7 @@
     "html.format.indentHandlebars": true,
     "html.format.unformatted": "a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, kbd, li, map, object, q, samp, small, span, strong, sub, sup, tt, var",
     "html.format.wrapLineLength": 0,
-    
+
     "css.lint.zeroUnits": "warning",
     "scss.lint.zeroUnits": "warning",
 
