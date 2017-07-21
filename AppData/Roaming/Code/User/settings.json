@@ -10,6 +10,7 @@
         "statusBar.noFolderBackground": "#171717"
     },
 
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
 
@@ -26,6 +27,5 @@
 
     "javascript.referencesCodeLens.enabled": true,
     "typescript.referencesCodeLens.enabled": true,
-    "typescript.implementationsCodeLens.enabled": true,
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace"
+    "typescript.implementationsCodeLens.enabled": true
 }
