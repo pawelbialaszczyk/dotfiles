@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2017-07-09 20:52:33" build="161206">
+		<key name=".Vanilla" modified="2017-08-16 21:26:45" build="161206">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -309,7 +309,7 @@
 			<value name="StoreTaskbarkTasks" type="hex" data="01"/>
 			<value name="StoreTaskbarCommands" type="hex" data="00"/>
 			<value name="JumpListAutoUpdate" type="hex" data="01"/>
-			<value name="SaveCmdHistory" type="hex" data="01"/>
+			<value name="SaveCmdHistory" type="hex" data="00"/>
 			<value name="ShowHelpTooltips" type="hex" data="01"/>
 			<value name="Multi" type="hex" data="01"/>
 			<value name="Multi.ShowButtons" type="hex" data="01"/>
