@@ -24,6 +24,10 @@
 
     "css.lint.zeroUnits": "warning",
     "scss.lint.zeroUnits": "warning",
+    "beautify.options": {
+        "end_with_newline": true,
+        "preserve_newlines": true
+    },
 
     "javascript.referencesCodeLens.enabled": true,
     "typescript.referencesCodeLens.enabled": true,
