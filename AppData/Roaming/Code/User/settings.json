@@ -10,12 +10,13 @@
         "statusBar.noFolderBackground": "#171717"
     },
 
+    "explorer.decorations.colors": false,
+
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
 
     "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontLigatures": true,
 
 
     "html.format.indentHandlebars": true,
