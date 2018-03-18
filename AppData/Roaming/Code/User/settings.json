@@ -9,6 +9,7 @@
         "statusBar.background": "#171717",
         "statusBar.noFolderBackground": "#171717"
     },
+    "workbench.statusBar.feedback.visible": false,
 
     "explorer.decorations.colors": false,
 
