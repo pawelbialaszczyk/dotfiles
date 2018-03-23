@@ -601,9 +601,9 @@
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
 			<key name="Tasks" modified="2018-03-23 21:33:41" build="180309">
 				<value name="Count" type="long" data="11"/>
-				<key name="Task1" modified="2017-07-08 14:06:13" build="161206">
+				<key name="Task1" modified="2018-03-23 21:49:00" build="180309">
 					<value name="Name" type="string" data="{Shells::cmd}"/>
-					<value name="Flags" type="dword" data="00000006"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd"'/>
@@ -638,9 +638,9 @@
 					<value name="Active" type="long" data="1"/>
 					<value name="Count" type="long" data="2"/>
 				</key>
-				<key name="Task5" modified="2017-07-08 14:06:13" build="161206">
+				<key name="Task5" modified="2018-03-23 21:49:00" build="180309">
 					<value name="Name" type="string" data="{Shells::PowerShell}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000003"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="powershell.exe"/>
