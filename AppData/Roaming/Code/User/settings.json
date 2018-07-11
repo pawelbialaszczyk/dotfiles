@@ -33,5 +33,46 @@
 
     "javascript.referencesCodeLens.enabled": true,
     "typescript.referencesCodeLens.enabled": true,
-    "typescript.implementationsCodeLens.enabled": true
+    "typescript.implementationsCodeLens.enabled": true,
+
+
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.codeLens.scopes": [
+        "blocks",
+        "containers",
+        "document"
+    ],
+    "gitlens.currentLine.format": "${id} ${authorAgoOrDate} • ${message}",
+    "gitlens.defaultDateFormat": "D MMMM YYYY HH:mm",
+    "gitlens.defaultDateStyle": "absolute",
+    "gitlens.menus": {
+        "editor": {
+            "blame": true,
+            "clipboard": true,
+            "compare": true,
+            "details": true,
+            "history": true,
+            "remote": true
+        },
+        "editorGroup": {
+            "blame": true,
+            "compare": true,
+            "history": true,
+            "remote": false
+        },
+        "editorTab": {
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "compare": true,
+            "history": true,
+            "remote": true
+        }
+    },
+    "gitlens.settings.mode": "advanced",
+    "gitlens.statusBar.reduceFlicker": true
 }
