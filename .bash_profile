@@ -51,3 +51,6 @@ PS1="$PS1"'\n'
 PS1="$PS1"'$ '
 # for detection by MSYS2 SDK's bash.basrc
 MSYS2_PS1="$PS1"
+
+# use tab key to step through possible completions
+bind "TAB:menu-complete"
