@@ -32,8 +32,11 @@
     },
 
     "javascript.referencesCodeLens.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
     "typescript.referencesCodeLens.enabled": true,
     "typescript.implementationsCodeLens.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
 
 
     "gitlens.advanced.messages": {
