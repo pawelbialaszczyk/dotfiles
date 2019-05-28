@@ -13,6 +13,8 @@
 
     "explorer.decorations.colors": false,
 
+    "breadcrumbs.enabled": true,
+
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
