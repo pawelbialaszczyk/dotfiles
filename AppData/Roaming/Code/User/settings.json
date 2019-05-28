@@ -49,7 +49,7 @@
         "containers",
         "document"
     ],
-    "gitlens.currentLine.format": "${id} ${authorAgoOrDate} • ${message}",
+    "gitlens.currentLine.format": "${id} ${author}, ${agoOrDate} • ${message}",
     "gitlens.defaultDateFormat": "D MMMM YYYY HH:mm",
     "gitlens.defaultDateStyle": "absolute",
     "gitlens.menus": {
