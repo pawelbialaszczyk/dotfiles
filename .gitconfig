@@ -4,6 +4,7 @@
 [alias]
 	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	s = status -s
+	g = grep --break --heading --line-number
 
 [diff]
 	tool = vscode
@@ -13,3 +14,7 @@
 
 [difftool "vscode"]
 	cmd = code --wait --diff $LOCAL $REMOTE
+
+[grep]
+	extendRegexp = true
+	lineNumber = true
