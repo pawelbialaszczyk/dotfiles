@@ -2,6 +2,7 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
 
+    "extensions.ignoreRecommendations": true,
 
     "window.titleBarStyle": "custom",
 
