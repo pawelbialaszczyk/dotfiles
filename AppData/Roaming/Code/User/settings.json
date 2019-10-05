@@ -12,6 +12,7 @@
     },
 
     "explorer.decorations.colors": false,
+    "explorer.openEditors.visible": 0,
 
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
