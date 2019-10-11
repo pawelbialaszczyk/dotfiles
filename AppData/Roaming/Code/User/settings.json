@@ -16,6 +16,8 @@
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
 
+    "scm.defaultViewMode": "tree",
+
     "terminal.integrated.cursorStyle": "line",
 
 
