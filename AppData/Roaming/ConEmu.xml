@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2019-05-28 20:39:31" build="190526">
+		<key name=".Vanilla" modified="2020-05-17 17:36:03" build="191012">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -760,6 +760,7 @@
 			<value name="AutoTrimSingleLine" type="hex" data="00"/>
 			<value name="AnsiLogCodes" type="hex" data="00"/>
 			<value name="AutoReloadEnvironment" type="hex" data="01"/>
+			<value name="StatusBar.Hide.InputGrouping" type="hex" data="00"/>
 		</key>
 	</key>
 </key>
