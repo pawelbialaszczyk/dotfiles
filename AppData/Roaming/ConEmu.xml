@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2020-06-11 18:59:26" build="191012">
+		<key name=".Vanilla" modified="2020-07-20 11:48:12" build="200713">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -658,21 +658,21 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task7" modified="2020-06-11 18:48:40" build="191012">
+				<key name="Task7" modified="2020-07-20 11:48:12" build="200713">
 					<value name="Name" type="string" data="{Shells::PowerShell Core}"/>
 					<value name="Flags" type="dword" data="00000003"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="pwsh.exe"/>
+					<value name="Cmd1" type="string" data="pwsh.exe -nologo"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task8" modified="2020-06-11 18:48:40" build="191012">
+				<key name="Task8" modified="2020-07-20 11:48:12" build="200713">
 					<value name="Name" type="string" data="{Shells::PowerShell Core (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="pwsh.exe -new_console:a"/>
+					<value name="Cmd1" type="string" data="pwsh.exe -nologo -new_console:a"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
