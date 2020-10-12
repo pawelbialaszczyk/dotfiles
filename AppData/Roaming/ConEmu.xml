@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2020-07-20 11:48:12" build="200713">
+		<key name=".Vanilla" modified="2020-10-12 19:45:09" build="201011">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -59,7 +59,7 @@
 			<value name="FontSize" type="ulong" data="14"/>
 			<value name="StatusFontHeight" type="long" data="14"/>
 			<value name="TabFontHeight" type="long" data="14"/>
-			<key name="HotKeys" modified="2019-02-23 21:51:59" build="190217">
+			<key name="HotKeys" modified="2020-10-12 19:45:09" build="201011">
 				<value name="MinimizeRestore" type="dword" data="000011c0"/>
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="0000005b"/>
@@ -255,6 +255,8 @@
 				<value name="Key.BufPrDn" type="dword" data="00121122"/>
 				<value name="Multi.NewWndConfirm" type="dword" data="00000000"/>
 				<value name="CheckUpdates" type="dword" data="00105b55"/>
+				<value name="Key.EditMenu" type="dword" data="00000000"/>
+				<value name="Key.EditMenu2" type="dword" data="00000000"/>
 			</key>
 			<value name="CmdLineHistory" type="multi">
 				<line data="{Shells::PowerShell Core}"/>
@@ -761,6 +763,7 @@
 			<value name="AnsiLogCodes" type="hex" data="00"/>
 			<value name="AutoReloadEnvironment" type="hex" data="01"/>
 			<value name="StatusBar.Hide.InputGrouping" type="hex" data="00"/>
+			<value name="ResetTerminalConfirm" type="hex" data="01"/>
 		</key>
 	</key>
 </key>
