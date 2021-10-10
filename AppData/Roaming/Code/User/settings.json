@@ -1,6 +1,5 @@
 {
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
 
     "extensions.ignoreRecommendations": true,
 
