@@ -59,7 +59,7 @@
 			<value name="FontSize" type="ulong" data="14"/>
 			<value name="StatusFontHeight" type="long" data="14"/>
 			<value name="TabFontHeight" type="long" data="14"/>
-			<key name="HotKeys" modified="2020-10-12 19:45:09" build="201011">
+			<key name="HotKeys" modified="2021-10-25 20:48:17" build="210912">
 				<value name="MinimizeRestore" type="dword" data="000011c0"/>
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="0000005b"/>
@@ -257,6 +257,7 @@
 				<value name="CheckUpdates" type="dword" data="00105b55"/>
 				<value name="Key.EditMenu" type="dword" data="00000000"/>
 				<value name="Key.EditMenu2" type="dword" data="00000000"/>
+				<value name="SetFocusParent" type="dword" data="0000a01b"/>
 			</key>
 			<value name="CmdLineHistory" type="multi">
 				<line data="{Shells::PowerShell Core}"/>
