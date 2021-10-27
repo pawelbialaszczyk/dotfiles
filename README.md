@@ -14,20 +14,26 @@ The PowerShell profile requires the following modules to be installed:
 
 Clone as a bare repository:
 
-```powershell
+```sh
 git clone --bare https://github.com/pawelbialaszczyk/dotfiles.git $HOME/.dotfiles
 ```
 
 Checkout to restore working tree files:
 
-```powershell
+```sh
 git --git-dir=$HOME/.dotfiles --work-tree=$HOME checkout
+```
+
+Configure the repository to include the git config:
+
+```sh
+git --git-dir=$HOME/.dotfiles --work-tree=$HOME config --local include.path ../.dotfilesconfig
 ```
 
 Restart PowerShell and from now on use the `dotfiles` command as an alias for git while working with dotfiles.
 
-Lastly, configure the repository to include the git config:
+In case PowerShell doesn't recognize the `dotfiles` command, you need to dot source the profile script in your profile file:
 
-```powershell
-dotfiles config --local include.path ../.dotfilesconfig
+```sh
+echo '. "$HOME\Documents\PowerShell\Profile.ps1"' > $PROFILE
 ```
