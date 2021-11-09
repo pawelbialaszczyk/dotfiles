@@ -5,12 +5,20 @@
   "ShowDebugWindowOnDebug": false,
   "HighlightFindResults": true,
   "ShowTimeStamps": false,
+  "ShowTimeStampOnEveryLine": false,
+  "ShowHoursInTimeStamps": false,
+  "FormatTimeInSystemLocale": false,
   "SuppressDonation": true,
   "Patterns": [
     {
       "ClassificationType": 5,
       "IgnoreCase": false,
       "RegExPattern": "\\+\\+\\+\\>"
+    },
+    {
+      "ClassificationType": 0,
+      "IgnoreCase": false,
+      "RegExPattern": ".*[t|c]sc\\.exe.*"
     },
     {
       "ClassificationType": 1,
@@ -40,7 +48,7 @@
     {
       "ClassificationType": 2,
       "IgnoreCase": true,
-      "RegExPattern": "(\\W|^)^(?!.*warning\\s(BC|CS|CA)\\d+:).*(error|fail|failed|exception)[^\\w\\.\\-\\+]"
+      "RegExPattern": "(\\W|^)^(?!.*warning\\s(BC|CS|CA)\\d+:).*((?<!\/)error|fail|failed|exception)[^\\w\\.\\-\\+]"
     },
     {
       "ClassificationType": 2,
@@ -66,6 +74,11 @@
       "ClassificationType": 2,
       "IgnoreCase": true,
       "RegExPattern": "Could not find file"
+    },
+    {
+      "ClassificationType": 2,
+      "IgnoreCase": true,
+      "RegExPattern": "failed"
     }
   ],
   "BuildMessageColor": {
@@ -128,12 +141,14 @@
     "state": 1,
     "value": 0
   },
+  "TimeStampElapsed": "mm':'ss':'fff",
   "FindFileNameColor": {
     "knownColor": 78,
     "name": null,
     "state": 1,
     "value": 0
   },
+  "TimeStampDifference": "mm':'ss':'fff",
   "TimeStampColor": {
     "knownColor": 45,
     "name": null,
