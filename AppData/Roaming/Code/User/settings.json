@@ -11,6 +11,7 @@
     "explorer.decorations.colors": false,
     "explorer.openEditors.visible": 0,
 
+    "editor.bracketPairColorization.enabled": false,
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
