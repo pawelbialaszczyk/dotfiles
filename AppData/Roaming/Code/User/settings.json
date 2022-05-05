@@ -37,10 +37,6 @@
     "typescript.implementationsCodeLens.enabled": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
 
-
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
     "gitlens.codeLens.scopes": [
         "blocks",
         "containers",
