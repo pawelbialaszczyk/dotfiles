@@ -1,75 +1,63 @@
 {
-    "telemetry.telemetryLevel": "off",
-
-    "extensions.ignoreRecommendations": true,
-
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#171717",
-        "statusBar.noFolderBackground": "#171717"
+  "beautify.options": {
+    "end_with_newline": true,
+    "preserve_newlines": true
+  },
+  "editor.bracketPairColorization.enabled": false,
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "explorer.decorations.colors": false,
+  "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": true,
+  "gitlens.codeLens.scopes": [
+    "blocks",
+    "containers",
+    "document"
+  ],
+  "gitlens.currentLine.format": "${id} ${author}, ${agoOrDate} • ${message}",
+  "gitlens.defaultDateFormat": "D MMMM YYYY HH:mm",
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.menus": {
+    "editor": {
+      "blame": true,
+      "clipboard": true,
+      "compare": true,
+      "details": true,
+      "history": true,
+      "remote": true
     },
-
-    "explorer.decorations.colors": false,
-    "explorer.openEditors.visible": 0,
-
-    "editor.bracketPairColorization.enabled": false,
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.renderWhitespace": "boundary",
-    "editor.tabSize": 2,
-
-    "scm.defaultViewMode": "tree",
-
-    "terminal.integrated.cursorStyle": "line",
-
-
-    "html.format.indentHandlebars": true,
-    "html.format.wrapLineLength": 0,
-
-    "beautify.options": {
-        "end_with_newline": true,
-        "preserve_newlines": true
+    "editorGroup": {
+      "blame": true,
+      "compare": true,
+      "history": true,
+      "remote": false
     },
-
-    "javascript.referencesCodeLens.enabled": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-
-    "typescript.referencesCodeLens.enabled": true,
-    "typescript.implementationsCodeLens.enabled": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-
-    "gitlens.codeLens.scopes": [
-        "blocks",
-        "containers",
-        "document"
-    ],
-    "gitlens.currentLine.format": "${id} ${author}, ${agoOrDate} • ${message}",
-    "gitlens.defaultDateFormat": "D MMMM YYYY HH:mm",
-    "gitlens.defaultDateStyle": "absolute",
-    "gitlens.menus": {
-        "editor": {
-            "blame": true,
-            "clipboard": true,
-            "compare": true,
-            "details": true,
-            "history": true,
-            "remote": true
-        },
-        "editorGroup": {
-            "blame": true,
-            "compare": true,
-            "history": true,
-            "remote": false
-        },
-        "editorTab": {
-            "compare": true,
-            "history": true,
-            "remote": true
-        },
-        "explorer": {
-            "compare": true,
-            "history": true,
-            "remote": true
-        }
+    "editorTab": {
+      "compare": true,
+      "history": true,
+      "remote": true
     },
-    "gitlens.statusBar.reduceFlicker": true
+    "explorer": {
+      "compare": true,
+      "history": true,
+      "remote": true
+    }
+  },
+  "gitlens.statusBar.reduceFlicker": true,
+  "html.format.indentHandlebars": true,
+  "html.format.wrapLineLength": 0,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "scm.defaultViewMode": "tree",
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.cursorStyle": "line",
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#171717",
+    "statusBar.noFolderBackground": "#171717"
+  }
 }
