@@ -1,2 +1,8 @@
+[core]
+	autocrlf = false
+
 [status]
 	showUntrackedFiles = no
+
+[filter "nppconfig"]
+	clean = grep -Ev '\\<(Filter|Find|Replace|File|GUIConfig name=\"AppPosition\"|GUIConfig name=\"FindWindowPosition\"|GUIConfig name=\"noUpdate\"|GUIConfig name=\"stylerTheme\")\\s'
