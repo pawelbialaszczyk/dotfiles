@@ -4,5 +4,8 @@
 [status]
 	showUntrackedFiles = no
 
+[filter "conemuconfig"]
+	clean = grep -Ev '<value name=\"WindowMode\" '
+
 [filter "nppconfig"]
 	clean = grep -Ev '\\<(Filter|Find|Replace|File|GUIConfig name=\"AppPosition\"|GUIConfig name=\"FindWindowPosition\"|GUIConfig name=\"noUpdate\"|GUIConfig name=\"stylerTheme\")\\s'
