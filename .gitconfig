@@ -12,6 +12,7 @@
 
 [diff]
 	tool = vscode
+	colorMoved = true
 
 [difftool]
 	prompt = false
