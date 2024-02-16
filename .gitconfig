@@ -32,6 +32,7 @@
 
 [rerere]
 	enabled = true
+	autoUpdate = true
 
 [user]
 	useConfigOnly = true
