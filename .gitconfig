@@ -27,6 +27,9 @@
 	extendRegexp = true
 	lineNumber = true
 
+[merge]
+	conflictStyle = zdiff3
+
 [rebase]
 	autosquash = true
 
