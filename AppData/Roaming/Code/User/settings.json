@@ -3,6 +3,8 @@
     "end_with_newline": true,
     "preserve_newlines": true
   },
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
