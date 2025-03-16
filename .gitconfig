@@ -25,6 +25,7 @@
 
 [fetch]
 	prune = true
+	pruneTags = true
 
 [grep]
 	extendRegexp = true
