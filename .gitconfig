@@ -35,7 +35,7 @@
 	conflictStyle = zdiff3
 
 [rebase]
-	autosquash = true
+	autoSquash = true
 
 [rerere]
 	enabled = true
