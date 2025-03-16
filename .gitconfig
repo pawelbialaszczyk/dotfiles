@@ -15,6 +15,7 @@
 	colorMoved = true
 	algorithm = histogram
 	mnemonicPrefix = true
+	renames = true
 
 [difftool]
 	prompt = false
