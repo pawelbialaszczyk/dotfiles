@@ -13,6 +13,7 @@
 [diff]
 	tool = vscode
 	colorMoved = true
+	algorithm = histogram
 
 [difftool]
 	prompt = false
