@@ -7,7 +7,6 @@ Windows dotfiles managed using a bare git repository. No extra tooling or symlin
 The PowerShell profile requires the following modules to be installed:
 
 - [posh-git](https://github.com/dahlbyk/posh-git)
-- [PSColor](https://github.com/Davlind/PSColor)
 - [PSReadLine](https://github.com/PowerShell/PSReadLine)
 
 ## Setup

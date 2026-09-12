@@ -1,5 +1,4 @@
 Import-Module posh-git
-Import-Module PSColor
 Import-Module PSReadLine
 
 $GitPromptSettings.DefaultPromptSuffix = '`n$(''>'' * ($nestedPromptLevel + 1)) '
