@@ -35,5 +35,5 @@ Restart PowerShell and from now on use the `dotfiles` command as an alias for gi
 In case PowerShell doesn't recognize the `dotfiles` command, you need to dot source the profile script in your profile file:
 
 ```sh
-echo '. "$HOME\Documents\PowerShell\Profile.ps1"' > $PROFILE
+echo '. "$HOME\Profile.ps1"' > $PROFILE
 ```
